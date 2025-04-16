@@ -1,4 +1,14 @@
 # Data Prep
+Add Maven POM for wrangler-core module
+
+- Defined project metadata including artifactId, version, and parent module
+- Added internal, external, test, and Apache dependencies
+- Configured ANTLR plugin for grammar generation
+- Included HL7 (UHN HAPI) structures for healthcare data support
+- Enabled resource filtering and build number plugin configuration
+- Declared necessary repositories and exclusions to avoid conflicts
+
+
 
 ![cm-available](https://cdap-users.herokuapp.com/assets/cm-available.svg)
 ![cdap-transform](https://cdap-users.herokuapp.com/assets/cdap-transform.svg)
